@@ -1,0 +1,154 @@
+@media (min-width: 768px) {
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        /*
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 100px 200px;
+        grid: 100px 200px / 300px 300px;
+        grid: 33.3% 33.3% 33.3%;
+        grid: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3,1fr);
+        */
+    }
+}
+body {
+    margin: 40px;
+}
+.ejemplo01 {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    /*grid-template-columns: 100px 100px 100px;*/
+    grid-gap: 10px;
+    /*
+    background-color: #fff;
+    color: #444;
+    */
+}
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+/*
+.a {
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+.b {
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+.c {
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+.d {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+.e {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+.f {
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+*/
+/*
+.a {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+.b {
+grid-column: 2 / 3;
+grid-row: 2 / 3;
+}
+.c {
+grid-column: 3 / 4;
+grid-row: 2 / 3;
+}
+.d {
+grid-column: 1 / 2;
+grid-row: 1 / 2;
+}
+.e {
+grid-column: 1 / 2;
+grid-row: 2 / 3;
+}
+.f {
+grid-column: 3 / 4;
+grid-row: 1 / 2;
+}
+*/
+/*
+.a {
+grid-area: 1 / 2 / 2 / 3;
+}
+.b {
+grid-area: 2 / 2 / 3 / 3;
+}
+.c {
+grid-area: 2 / 3 / 3 / 4;
+}
+.d {
+grid-area: 1 / 1 / 2 / 2;
+}
+.e {
+grid-area: 2 / 1 / 3 / 2;
+}
+.f {
+grid-area: 1 / 3 / 2 / 4;
+}
+*/
+/*
+.a {
+grid-column: 1 / 3;
+grid-row: 1;
+}
+.b {
+grid-column: 3 ;
+grid-row: 1 / 3;
+}
+.c {
+grid-column: 1 ;
+grid-row: 2 ;
+}
+.d {
+grid-column: 2;
+grid-row: 2;
+  }
+*/
+/*
+.a {
+grid-column: 1 / span 2;
+}
+.b {
+grid-column: 3 ;
+grid-row: 1 / span 3;
+}
+.c {
+grid-column: 1 ;
+grid-row: 2 ;
+}
+.d {
+grid-column: 2 ;
+grid-row: 2 ;
+}
+*/
