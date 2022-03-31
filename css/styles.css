@@ -151,9 +151,19 @@ h1,h2,h3 {
     background-image: url(../img/GianCarlo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 250px;
     position: relative;
     margin-bottom: 2rem;
+}
+@media (min-width: 768px){
+    .hero {
+        background-image: url(../img/GianCarlo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+        position: relative;
+        margin-bottom: 2rem;
+    }
 }
 .contenido-hero {
     position: absolute;
