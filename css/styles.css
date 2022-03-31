@@ -180,14 +180,18 @@ h1,h2,h3 {
     align-items: center;
     justify-content: center;
 }
-.contenido-hero h2{
+.contenido-hero h2 {
     color: #98CBE1;
+    font-size: 1.5rem;
+}
+@media (min-width: 768px){
+    .contenido-hero h2{
+        color: #98CBE1;
+        font-size: 2.5rem;
+    }
 }
 .contenido-hero p {
     color: var(--blanco)
-}
-.contenido-hero h2 {
-    font-size: 2.5rem;
 }
 .ubicacion {
     display: flex;
