@@ -1,0 +1,461 @@
+{
+  "contact": {
+    "tag": "GET IN TOUCH",
+    "title": "Contact Me",
+    "subtitle": "I am open to collaborations, professional opportunities, and international business connections. Feel free to reach out through any of the channels below.",
+    "connectTitle": "Let's Connect",
+    "description": "Whether you want to discuss a project, data analysis, software development, construction technology, or international logistics between China and Peru, I would be glad to hear from you.",
+    "qrTitle": "WeChat QR",
+    "qrText": "Scan this QR code with WeChat to add me directly.",
+    "qrAlt": "WeChat QR Code",
+    "items": {
+      "email": {
+        "label": "Email"
+      },
+      "phone": {
+        "label": "Phone"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "text": "Chat with me on WhatsApp"
+      },
+      "instagram": {
+        "label": "Instagram"
+      },
+      "wechat": {
+        "label": "WeChat - giancarlovilch",
+        "text": "Scan the QR code to connect on WeChat"
+      }
+    }
+  },
+  "navbar": {
+    "projects": "Projects",
+    "experiences": "Experiences",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "education": {
+    "tag": "ACADEMIC & PROFESSIONAL DEVELOPMENT",
+    "title": "Education & Qualifications",
+    "subtitle": "A structured overview of my academic foundation, professional pathways, and complementary training across engineering, technology, languages, and international business.",
+    "selectedPillar": "SELECTED PILLAR",
+    "corePath": "Core Academic Path",
+    "complementaryTraining": "Complementary Training",
+    "coreItems": "core items",
+    "complementaryItems": "complementary items",
+    "view": "View",
+    "pendingUpload": "Pending Upload",
+    "inProgress": "In Progress",
+    "noteTitle": "Note:",
+    "noteText": "Verifiable certificate documentation is currently shown for uploaded credentials. Items marked with five stars represent completed or strongest qualifications, while other listed paths may reflect active development, specialization, or future academic progression.",
+    "certificatePreview": "CERTIFICATE PREVIEW",
+    "noCertificate": "No certificate file added yet",
+    "uploadInstruction": "Upload a PDF file in assets/education and connect it to this qualification to enable verification.",
+    "photoAlt": "University campus",
+    "specialization": "Core Stack & Roadmap",
+    "passwordRequired": "ACCESS PROTECTED",
+    "passwordTitle": "Enter password to view",
+    "passwordSubtitle": "This certificate is password protected. Enter the access key to continue.",
+    "passwordPlaceholder": "Enter access key...",
+    "passwordError": "Incorrect password. Please try again.",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+
+    "pillars": {
+      "civil": {
+        "title": "Civil Engineering",
+        "summary": "Academic and professional development in civil engineering, construction technology, structural analysis, and technical design software."
+      },
+      "software": {
+        "title": "Software Engineering",
+        "summary": "Applied training in full-stack development, web technologies, databases, networking, and technical systems."
+      },
+      "languages": {
+        "title": "Foreign Language Studies",
+        "summary": "Structured language learning supported by formal examinations, preparation tracks, and multilingual communication practice."
+      },
+      "business": {
+        "title": "International Business",
+        "summary": "Cross-border business preparation focused on sourcing, logistics, documentation, supplier negotiation, and global trade operations."
+      }
+    },
+
+    "items": {
+      "civil": {
+        "bachelor": {
+          "title": "Bachelor’s Degree in Civil Engineering",
+          "issuer": "University Academic Program"
+        },
+        "professional": {
+          "title": "Professional Title in Civil Engineering",
+          "issuer": "Professional Qualification Path"
+        },
+        "master": {
+          "title": "Master’s Degree in Civil Engineering",
+          "issuer": "University Academic Program"
+        },
+
+        "autocad": {
+          "title": "AutoCAD Technical Drafting",
+          "issuer": "Engineering Software Training"
+        },
+        "sap2000": {
+          "title": "SAP2000 Structural Analysis",
+          "issuer": "Structural Engineering Training"
+        },
+        "etabs": {
+          "title": "ETABS Structural Modeling",
+          "issuer": "Structural Engineering Training"
+        },
+        "sketchup": {
+          "title": "SketchUp Architectural Modeling",
+          "issuer": "Design Visualization Training"
+        },
+        "msproject": {
+          "title": "Microsoft Project",
+          "issuer": "Construction Project Management Training"
+        },
+        "bim": {
+          "title": "Building Information Modeling (BIM) Professional Certifications",
+          "issuer": "buildingSMART Foundation"
+        }
+      },
+
+      "software": {
+        "bachelor": {
+          "title": "Bachelor’s Degree in Software Engineering",
+          "issuer": "University Academic Program"
+        },
+        "professional": {
+          "title": "Professional Title in Software Engineering",
+          "issuer": "Professional Qualification Path"
+        },
+        "python": {
+          "title": "Python Backend Development",
+          "issuer": "Backend Development Training"
+        },
+        "react": {
+          "title": "React Frontend Engineering",
+          "issuer": "Frontend Development Training"
+        },
+        "fullstack": {
+          "title": "Full Stack Development",
+          "issuer": "University of Helsinki"
+        },
+        "mysql": {
+          "title": "MySQL Database Management",
+          "issuer": "Database Systems Training"
+        },
+        "cisco": {
+          "title": "Cisco Networking Fundamentals",
+          "issuer": "Networking & Infrastructure Training"
+        },
+        "hardware": {
+          "title": "Computer Hardware, Electronics & Embedded Systems",
+          "issuer": "Electronics & Automation Training"
+        }
+      },
+
+      "languages": {
+        "degree": {
+          "title": "Degree in Foreign Languages",
+          "issuer": "South China University of Technology"
+        },
+        "hsk4": {
+          "title": "Chinese Proficiency - HSK 4",
+          "issuer": "Official Chinese Language Examination"
+        },
+        "bnu": {
+          "title": "Scholarship - BNU - Beijing",
+          "issuer": "Beijing Normal University"
+        },
+        "ielts": {
+          "title": "English Proficiency - IELTS - B2",
+          "issuer": "International English Language Testing System"
+        },
+        "portuguese": {
+          "title": "Portuguese Proficiency - CELPEBRAS - A2",
+          "issuer": "Certificado de Proficiencia de Lingua Portuguesa para Estrangeiros"
+        }
+      },
+
+      "business": {
+        "exportImport": {
+          "title": "Export/Import Certificate (EIC)",
+          "issuer": "ICC Academy"
+        }
+      }
+    }
+  },
+  "footer": {
+    "about": "Data-focused programmer working with AI, React + Django + databases. Civil Engineer specialized in construction technology. Expert in international logistics between China and Peru. Fluent in English, Spanish, Chinese, and Portuguese.",
+    "linksTitle": "Links",
+    "contactTitle": "Contact",
+    "emailLabel": "Email",
+    "wechatLabel": "WeChat",
+    "phoneLabel": "Phone",
+    "rights": "All rights reserved.",
+    "links": {
+      "projects": "Projects",
+      "experience": "Experience",
+      "education": "Education",
+      "contact": "Contact"
+    }
+  },
+  "experiences": {
+    "tag": "PROFESSIONAL EXPERIENCE",
+    "title": "Experience Stories",
+    "subtitle": "A visual overview of practical experiences across engineering, technology, international business, and field-based problem solving.",
+    "photos": "photos",
+    "viewStory": "View Story",
+    "storyTag": "EXPERIENCE STORY",
+    "overview": "Overview",
+    "professionalNote": "Professional Note",
+    "highlights": "Highlights",
+
+    "items": {
+      "concreteshow": {
+        "category": "International Experience",
+        "title": "Participation at Concrete Show South America",
+        "location": "São Paulo, Brazil",
+        "period": "2025",
+        "shortSummary": "Technical and commercial attendance at the concrete industry trade show, accompanying management.",
+        "description": "I accompanied my boss and upper management to the 2025 Concrete Show in São Paulo, leveraging my advanced fluency in Portuguese and my strong technical affinity for the construction sector. During the event, I provided strategic support in exploring innovations in concrete technology and heavy machinery, acting as a communication and networking facilitator with international suppliers and manufacturers for future imports to Peru.",
+        "note": "This experience not only strengthened my knowledge of global infrastructure trends but also consolidated my bilingual negotiation skills and my ability to provide technical support to management in international corporate environments.",
+        "highlights": [
+          "Direct linguistic and technical support to management during negotiations with Brazilian and international manufacturers.",
+          "Joint evaluation of new machinery, admixtures, and formwork systems applicable to the Peruvian market.",
+          "Facilitation of strategic networking for the establishment of commercial import partnerships."
+        ]
+      },
+
+      "china2025": {
+        "category": "International Experience",
+        "title": "Trade Mission in China",
+        "location": "Lima - Germany - Abu Dhabi - China - Hong Kong",
+        "period": "2026",
+        "shortSummary": "Intercontinental business tour acting as the official translator, cultural guide, and commercial liaison for audits and deal closures in Asia.",
+        "description": "I led and facilitated a high-level commercial mission over the course of a month. Following an international connection route through Germany and the UAE, I arrived in China, where my role was crucial as a translator (Mandarin-Spanish), cultural guide, and business advisor. The itinerary included extensive factory visits in Shandong province for technical audits, followed by negotiations in the industrial hub of Guangzhou, and culminated in the financial center of Hong Kong with the formal closing of commercial agreements. My deep understanding of the Chinese market and culture ensured the expedition's overall success.",
+        "note": "This experience consolidates my profile as a 'bridge' professional between Latin America and Asia, capable of breaking down language and cultural barriers to secure complex commercial transactions.",
+        "highlights": [
+          "Real-time technical and commercial translation (Mandarin/Spanish) during manufacturing plant audits in Shandong.",
+          "Logistical management and cross-cultural guidance during a one-month expedition across key business cities (Shandong, Guangzhou, Hong Kong).",
+          "Strategic support in direct negotiations and the closing of international contracts in Hong Kong."
+        ]
+      },
+
+      "cantonFair": {
+        "category": "International Business Activity",
+        "title": "Canton Fair Participation",
+        "location": "Guangzhou, China",
+        "period": "Business Exploration Experience",
+        "shortSummary": "Participation in one of the largest trade fairs in the world, with exposure to suppliers, products, sourcing opportunities, and international business culture.",
+        "description": "Participation in the Canton Fair provided direct exposure to international supplier ecosystems, product categories, sourcing strategies, and large-scale business dynamics. It was a valuable learning experience in global trade and market observation.",
+        "note": "This experience reflects initiative, international exposure, and direct engagement with global trade environments, which is highly relevant for cross-border business and sourcing roles.",
+        "highlights": [
+          "Exploration of suppliers, product categories, and sourcing opportunities.",
+          "Direct exposure to international trade dynamics and negotiation environments.",
+          "Practical understanding of large-scale global business exhibitions."
+        ]
+      },
+
+      "civilSupport": {
+        "category": "Engineering Experience",
+        "title": "Civil Engineering Field Support",
+        "location": "Peru",
+        "period": "Engineering Practice",
+        "shortSummary": "Field-based participation in engineering-related tasks, technical support, and practical involvement in civil and construction environments.",
+        "description": "This experience reflects practical involvement in engineering environments where field support, technical understanding, and real-world coordination were essential. It helped connect academic preparation with operational realities in construction and engineering contexts.",
+        "note": "It demonstrates that my engineering profile is not purely academic, but also grounded in practical exposure, field understanding, and technical execution.",
+        "highlights": [
+          "Support in practical engineering and construction-related activities.",
+          "Exposure to technical coordination and field conditions.",
+          "Connection between academic engineering knowledge and real implementation."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "tag": "PROJECT PORTFOLIO",
+    "title": "Projects & Executions",
+    "subtitle": "A structured overview of projects across technology, construction, international business, and global experiences. Each project includes documentation, outcomes, and visual evidence.",
+
+    "filters": {
+      "category": "Category",
+      "year": "Year",
+      "allCategories": "All categories",
+      "allYears": "All years"
+    },
+
+    "itemsLabel": "projects",
+    "membersLabel": "members",
+    "viewDetails": "View Details",
+    "openDocument": "Open Documentation",
+    "noDocument": "No documentation available yet.",
+
+    "labels": {
+      "date": "Date",
+      "year": "Year",
+      "status": "Status",
+      "team": "Team"
+    },
+
+    "status": {
+      "successful": "Successful",
+      "completed": "Completed",
+      "incomplete": "In progress"
+    },
+
+    "modal": {
+      "tag": "PROJECT DETAILS",
+      "overview": "Overview",
+      "documentation": "Documentation",
+      "teamMembers": "Project Team",
+      "highlights": "Key Highlights"
+    },
+
+    "categories": {
+      "technology": "Technology",
+      "construction": "Construction",
+      "machinery": "Machinery",
+      "transportation": "Transportation",
+      "internationalBusiness": "International Business",
+      "trips": "International Trips"
+    },
+
+    "members": {
+      "gianCarlo": "Gian Carlo",
+      "contractorTeam": "Construction Team",
+      "siteSupport": "Technical Site Support",
+      "chineseSuppliers": "Chinese Suppliers",
+      "logisticsPartners": "Logistics Partners",
+      "businessContacts": "Business Contacts",
+      "suppliers": "International Suppliers"
+    },
+
+    "items": {
+      "carMixerImport": {
+        "title": "Import and Commissioning of a Self-Loading Concrete Mixer",
+        "date": "2025",
+        "shortSummary": "Comprehensive management of the import from China, assembly, and on-site commissioning of a 3.5m³ self-loading concrete mixer in Ayacucho.",
+        "description": "I led the entire heavy machinery (Car Mixer) acquisition project. I conducted sourcing and direct negotiation with the manufacturing plant in Shandong 山东 (China), managing international logistics to the Port of Callao. Subsequently, I personally handled the unloading, mechanical assembly of the machinery, and its final transport to Ayacucho for immediate on-site operation.",
+        "highlights": [
+          "Direct international negotiation with the factory in China (Shandong 山东), optimizing costs by avoiding intermediaries (traders).",
+          "Comprehensive logistics management: maritime import (Shandong 山东 - Callao) and coordination of national ground transportation.",
+          "Autonomous mechanical assembly and successful commissioning of the equipment (3.5m³ capacity) directly on-site."
+        ]
+      },
+      "formwork": {
+        "title": "Import and On-Site Deployment of Formwork Systems",
+        "date": "2026",
+        "shortSummary": "Comprehensive management of procurement, international logistics, and on-site deployment of formwork systems from Shandong, China.",
+        "description": "I led the international procurement of formwork systems for structural concrete works. I managed the sourcing and direct negotiation with manufacturers in Shandong province (China), coordinating the entire maritime logistics chain to the Port of Callao. Finally, I oversaw the customs clearance process and the direct transport to the construction site for immediate assembly and use, ensuring the continuity of the project schedule.",
+        "highlights": [
+          "Direct negotiation with formwork factories in Shandong, ensuring quality standards and import cost optimization.",
+          "End-to-end coordination of the international supply chain: ocean freight (Shandong - Callao) and customs management.",
+          "Logistical reception and direct deployment of materials at the project site, accelerating structural workflows."
+        ]
+      },
+      
+      "tyresImport": {
+        "title": "Tire Import and Supplier Auditing Expedition",
+        "date": "2019",
+        "shortSummary": "Business expedition to Shandong province, China, for comprehensive factory technical audits and the management of tire imports to Peru.",
+        "description": "I conducted a strategic business trip to Shandong province (China) to establish direct commercial partnerships for tire importation. During this expedition, I visited and audited multiple manufacturing plants, thoroughly assessing their production capabilities, quality control standards, and international certifications. This hands-on approach facilitated the optimization of the supply chain, successfully bypassed intermediaries, and secured highly reliable suppliers for the Peruvian market.",
+        "highlights": [
+          "On-site technical inspection of multiple manufacturing facilities in Shandong to verify production workflows and quality assurance.",
+          "Direct commercial negotiation with international manufacturers, significantly improving cost structures and import margins.",
+          "Comprehensive comparative analysis of suppliers to ensure strict compliance with the technical regulations required at the Port of Callao."
+        ]
+      },
+
+      "vehicleImport": {
+        "title": "Import and Customs Clearance of Pre-Owned Vehicle Fleet",
+        "date": "2020",
+        "shortSummary": "Business expedition to South Korea for the negotiation, importation, and customs clearance of pre-owned Hyundai vehicles.",
+        "description": "I led an automotive import project by traveling directly to South Korea to audit and negotiate the acquisition of pre-owned Hyundai vehicles. I managed the entire foreign trade cycle, from physical inspection and purchasing at the source to coordinating international maritime freight. Furthermore, I strictly oversaw all customs procedures, documentary compliance, and the nationalization process to ensure the legal and successful entry of the units into the Peruvian market.",
+        "highlights": [
+          "On-site commercial negotiation in South Korea, ensuring strict quality control over the mechanical and legal condition of each Hyundai unit.",
+          "End-to-end management of international logistics (ocean freight) and optimization of the automotive supply chain to the Port of Callao.",
+          "Expert handling of customs documentation and technical requirements for the swift nationalization and vehicle registration in Peru."
+        ]
+      },
+
+      "portfolioDevelopment": {
+        "title": "Personal Portfolio Platform Development",
+        "date": "2026",
+        "shortSummary": "Development of a professional portfolio website using React, TypeScript, and modern web technologies.",
+        "description": "Design and development of a modern portfolio platform showcasing projects, professional experience, and academic background. The platform integrates React architecture, responsive design, and internationalization.",
+        "highlights": [
+          "React + TypeScript architecture.",
+          "Responsive UI/UX design.",
+          "Internationalization with multi-language support."
+        ]
+      },
+
+      "cantonFairTrip": {
+        "title": "Canton Fair Business Exploration",
+        "date": "2025",
+        "shortSummary": "Participation in the Canton Fair to explore suppliers, products, and international business opportunities.",
+        "description": "This experience included participation in the Canton Fair in Guangzhou, China. The objective was to explore international suppliers, analyze product markets, and understand global trade opportunities.",
+        "highlights": [
+          "Exploration of international suppliers.",
+          "Observation of global market trends.",
+          "Expansion of international business networks."
+        ]
+      }
+    }
+  },
+  "home": {
+    "tag": "MULTIDISCIPLINARY ENGINEER",
+    "title": "Engineering, Technology & Global Business",
+    "subtitle": "Civil Engineer and Software Engineer with international experience in China, multilingual communication, and cross-disciplinary technical problem solving.",
+
+    "ctaProjects": "View Projects",
+    "ctaContact": "Contact Me",
+
+    "carouselAlt": "Professional experience photo",
+
+    "metrics": {
+      "fields": "Professional fields",
+      "languages": "Languages spoken",
+      "growth": "Continuous learning"
+    },
+
+    "introTag": "CORE AREAS",
+    "introTitle": "Professional Focus Areas",
+
+    "cards": {
+      "engineering": {
+        "title": "Civil Engineering",
+        "text": "Technical background in civil engineering, construction processes, and project coordination with practical field exposure."
+      },
+      "software": {
+        "title": "Software Engineering",
+        "text": "Development of digital systems and data-driven tools using modern technologies such as React, Python, and databases."
+      },
+      "business": {
+        "title": "International Business",
+        "text": "Practical involvement in sourcing, supplier communication, and trade operations between China and Latin America."
+      },
+      "languages": {
+        "title": "Languages & Global Communication",
+        "text": "Multilingual communication skills across English, Spanish, Chinese, and Portuguese in international environments."
+      }
+    },
+
+    "profileTag": "PROFILE SUMMARY",
+    "profileTitle": "A Multidisciplinary Professional Path",
+
+    "profileText": "My professional journey integrates engineering, technology, and international business. With academic training in civil and software engineering, combined with real-world exposure to construction projects, global trade, and cross-cultural environments, I focus on building practical solutions that connect technical expertise with real business impact.",
+
+    "points": {
+      "point1": "Engineering background connecting civil infrastructure knowledge with digital technology solutions.",
+      "point2": "International exposure through experiences in China, supplier communication, and global trade environments.",
+      "point3": "Technical development in software engineering including modern web technologies and system design.",
+      "point4": "Continuous learning mindset with focus on innovation, technology, and global collaboration."
+    }
+  }
+}
+
+

@@ -1,0 +1,194 @@
+/* Reemplaza la clase .navbar en Navbar.css */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  /* Fondo blanco translúcido (Glassmorphism claro) */
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  /* Borde y sombra sutiles para separarlo del fondo */
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 10px 30px -10px rgba(14, 165, 233, 0.08);
+  margin-bottom: 1rem;
+}
+
+.navbar-container {
+  width: min(1280px, calc(100% - 48px));
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  font-size: 1.12rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--text-primary);
+  text-transform: uppercase;
+}
+
+.logo a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.25s ease, text-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.logo a:hover {
+  color: var(--accent);
+  text-shadow: 0 0 18px rgba(76, 201, 240, 0.22);
+  transform: translateY(-1px);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary);
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.nav-link:hover {
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+.nav-link.active {
+  color: var(--accent);
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--accent-strong) 100%);
+  box-shadow: 0 0 14px rgba(76, 201, 240, 0.32);
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.4);
+  transition: width 0.25s ease;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .navbar-container {
+    width: min(1280px, calc(100% - 32px));
+  }
+
+  .nav-links {
+    gap: 18px;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar-container {
+    width: min(1280px, calc(100% - 24px));
+    flex-direction: column;
+    gap: 14px;
+    padding: 16px 0;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px 18px;
+  }
+}
+
+/* language switch */
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  /* Fondo gris sutil para la cápsula */
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px;
+  margin-left: 10px;
+}
+
+.language-switcher button {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  transition: color 0.25s ease, transform 0.2s ease;
+}
+
+.language-switcher button:hover {
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.language-switcher span {
+  color: rgba(148,163,184,0.4);
+}
+.lang-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 6px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.lang-btn:hover:not(.active) {
+  color: var(--text-secondary);
+}
+
+/* El botón activo se ilumina en blanco y se eleva */
+.lang-btn.active {
+  background: #ffffff;
+  color: var(--accent-strong);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+}

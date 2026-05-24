@@ -1,0 +1,33 @@
+[
+  {
+    "id": "civil-engineering",
+    "titleKey": "education.pillars.civil.title",
+    "summaryKey": "education.pillars.civil.summary",
+    "level": 5,
+    "corePath": [
+      {
+        "titleKey": "education.items.civil.bachelor.title",
+        "issuerKey": "education.items.civil.bachelor.issuer",
+        "level": 5,
+        "fileKey": "civilBachelorCert"
+      },
+      {
+        "titleKey": "education.items.civil.professionalTitle.title",
+        "issuerKey": "education.items.civil.professionalTitle.issuer",
+        "level": 2
+      }
+    ],
+    "complementaryTraining": [
+      {
+        "titleKey": "education.items.civil.autocad.title",
+        "issuerKey": "education.items.civil.autocad.issuer",
+        "level": 4
+      },
+      {
+        "titleKey": "education.items.civil.sap2000.title",
+        "issuerKey": "education.items.civil.sap2000.issuer",
+        "level": 1
+      }
+    ]
+  }
+]

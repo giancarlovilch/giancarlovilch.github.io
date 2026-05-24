@@ -1,0 +1,55 @@
+/* App.css */
+
+.app-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(14, 165, 233, 0.05), transparent 28%),
+    radial-gradient(circle at top right, rgba(2, 132, 199, 0.04), transparent 24%),
+    linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 55%, var(--bg-tertiary) 100%);
+  color: var(--text-primary);
+}
+
+.page-container {
+  width: min(1200px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.section-block {
+  padding: 96px 0 72px;
+}
+
+.glass-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-card);
+}
+
+.section-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 14px;
+  letter-spacing: -0.02em;
+}
+
+.section-subtitle {
+  max-width: 760px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  font-size: 1.02rem;
+}
+
+.accent-text {
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .section-block {
+    padding: 80px 0 56px;
+  }
+
+  .page-container {
+    width: min(1200px, calc(100% - 32px));
+  }
+}

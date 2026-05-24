@@ -1,0 +1,550 @@
+.projects-page {
+  min-height: 100vh;
+  color: var(--text-primary);
+}
+
+.projects-header {
+  max-width: 860px;
+  margin: 0 auto 42px;
+  text-align: center;
+}
+
+.projects-tag {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.projects-header h1 {
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+
+.projects-subtitle {
+  font-size: 1.03rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+/* --- Barra de Filtros (Estilo Cristal) --- */
+.projects-toolbar {
+  max-width: 1000px;
+  margin: 0 auto 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  padding: 20px 24px;
+  border-radius: 20px;
+  
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-card);
+  
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.projects-filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 210px;
+  flex: 1 1 220px;
+}
+
+.projects-filter-group label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.projects-filter-group select {
+  height: 46px;
+  border-radius: 12px;
+  
+  background: #ffffff;
+  border: 1px solid var(--border-strong);
+  color: var(--text-primary);
+  font-weight: 500;
+  
+  padding: 0 16px;
+  outline: none;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  appearance: auto;
+}
+
+.projects-filter-group select:hover,
+.projects-filter-group select:focus {
+  border-color: rgba(14, 165, 233, 0.5);
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+  background: #f8fafc;
+}
+
+/* --- Lista Simple y Elegante --- */
+.projects-simple-list {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.project-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow-soft);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  text-align: left;
+  width: 100%;
+}
+
+/* Efecto Hover: Deslizamiento sutil y elevación */
+.project-list-item:hover {
+  transform: translateX(6px) translateY(-2px);
+  box-shadow: var(--shadow-card);
+  background: #f8fafc;
+}
+
+.project-item-main {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.project-item-status-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.project-list-item h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.project-item-meta {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.project-item-category {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  background: var(--bg-tertiary);
+  padding: 6px 14px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+.project-item-year {
+  font-weight: 700;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.project-item-arrow {
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.project-list-item:hover .project-item-arrow {
+  transform: translateX(4px);
+  color: var(--accent);
+}
+
+/* --- Colores Dinámicos de Estado --- */
+
+/* Exitoso (Verde Esmeralda) */
+.project-list-item.status-successful {
+  border-left: 4px solid #10b981;
+}
+.project-list-item.status-successful .project-item-status-dot {
+  background: #10b981;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.4);
+}
+
+/* Completado (Azul Acento) */
+.project-list-item.status-completed {
+  border-left: 4px solid var(--accent);
+}
+.project-list-item.status-completed .project-item-status-dot {
+  background: var(--accent);
+  box-shadow: 0 0 10px rgba(14, 165, 233, 0.4);
+}
+
+/* Incompleto / En Curso (Naranja) */
+.project-list-item.status-incomplete {
+  border-left: 4px solid #f59e0b;
+}
+.project-list-item.status-incomplete .project-item-status-dot {
+  background: #f59e0b;
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
+}
+
+.projects-empty-msg {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 40px;
+  font-size: 1.05rem;
+  background: #ffffff;
+  border: 1px dashed var(--border-strong);
+  border-radius: 16px;
+}
+
+/* --- Modal (Caja de Luz Claro) --- */
+.project-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  background: rgba(15, 23, 42, 0.4);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.project-modal {
+  width: min(1120px, 100%);
+  max-height: 92vh;
+  overflow-y: auto;
+  border-radius: 28px;
+  
+  background: #ffffff;
+  border: 1px solid var(--border);
+  box-shadow: 0 24px 80px rgba(14, 165, 233, 0.15);
+  padding: 32px;
+}
+
+.project-modal-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 26px;
+}
+
+.project-modal-tag {
+  color: var(--accent);
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.project-modal-header h2 {
+  margin-bottom: 8px;
+  font-size: 1.8rem;
+  color: var(--text-primary);
+}
+
+.project-modal-submeta {
+  margin: 0;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.project-close-btn {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  border-radius: 12px;
+  
+  background: #f1f5f9;
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-close-btn:hover {
+  transform: translateY(-2px);
+  background: #e2e8f0;
+  border-color: rgba(14, 165, 233, 0.4);
+}
+
+/* --- Galería del Modal --- */
+.project-modal-gallery {
+  display: grid;
+  grid-template-columns: 56px 1fr 56px;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.project-gallery-main {
+  width: 100%;
+  min-height: 420px;
+  border-radius: 22px;
+  overflow: hidden;
+  background: #f8fafc;
+  border: 1px solid var(--border);
+}
+
+.project-gallery-image {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Mantiene la proporción estilo cine/pantalla */
+  max-height: 500px; /* Un límite sensato */
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.project-gallery-nav {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  
+  background: #ffffff;
+  border: 1px solid var(--border);
+  color: var(--accent-strong);
+  
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.project-gallery-nav:hover {
+  transform: translateY(-2px);
+  background: #f0f9ff;
+  border-color: rgba(14, 165, 233, 0.4);
+}
+
+/* Miniaturas */
+.project-gallery-thumbs {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  margin-bottom: 26px;
+}
+
+.project-gallery-thumbs::-webkit-scrollbar {
+  height: 8px;
+}
+
+.project-gallery-thumbs::-webkit-scrollbar-thumb {
+  background: rgba(15, 23, 42, 0.1);
+  border-radius: 999px;
+}
+
+.project-thumb {
+  flex: 0 0 96px;
+  height: 72px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid transparent;
+  padding: 0;
+  background: #f1f5f9;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.project-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.project-thumb:hover {
+  transform: translateY(-2px);
+  border-color: rgba(14, 165, 233, 0.3);
+}
+
+.project-thumb.active {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.1), 0 0 12px rgba(14, 165, 233, 0.15);
+}
+
+/* --- Cuerpo del Modal --- */
+.project-modal-body {
+  display: grid;
+  gap: 20px;
+}
+
+.project-modal-section {
+  padding: 24px;
+  border-radius: 22px;
+  background: #f8fafc;
+  border: 1px solid var(--border);
+}
+
+.project-modal-section h3 {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  color: var(--text-primary);
+}
+
+.project-modal-section p {
+  margin: 0;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+/* Miembros (Chips) */
+.project-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-member-chip {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  border: 1px solid rgba(14, 165, 233, 0.2);
+  color: var(--accent-strong);
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* Highlights */
+.project-highlights {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.project-highlights li {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 8px;
+}
+
+/* Botón de Documento */
+.project-document-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  height: 46px;
+  padding: 0 24px;
+  border-radius: 14px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.project-document-link:hover {
+  transform: translateY(-2px);
+  background: var(--accent-strong);
+  border-color: var(--accent-strong);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.25);
+}
+
+.project-no-document {
+  color: var(--text-muted) !important;
+  font-style: italic;
+}
+
+/* --- Responsive --- */
+@media (max-width: 980px) {
+  .project-modal-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .project-gallery-nav {
+    width: 100%;
+    height: 46px;
+    font-size: 1.6rem;
+    border-radius: 14px;
+  }
+
+  .project-gallery-main {
+    order: 1;
+  }
+}
+
+@media (max-width: 700px) {
+  .projects-page {
+    padding: 10px 6% 50px;
+  }
+
+  .projects-toolbar {
+    padding: 18px;
+    border-radius: 20px;
+  }
+
+  .project-list-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 18px;
+  }
+  
+  .project-item-meta {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  
+  .project-item-arrow {
+    margin-left: auto;
+  }
+
+  .project-modal {
+    padding: 20px;
+    border-radius: 22px;
+  }
+
+  .project-modal-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .project-close-btn {
+    align-self: flex-end;
+  }
+
+  .project-gallery-main {
+    min-height: 280px;
+  }
+
+  .project-gallery-image {
+    height: 320px;
+  }
+
+  .project-modal-section {
+    padding: 18px;
+  }
+
+  .project-document-link {
+    width: 100%;
+  }
+}

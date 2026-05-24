@@ -1,0 +1,458 @@
+{
+  "contact": {
+    "tag": "PONTE EN CONTACTO",
+    "title": "Contáctame",
+    "subtitle": "Estoy abierto a colaboraciones, oportunidades profesionales y conexiones de negocios internacionales. No dudes en escribirme a través de cualquiera de los siguientes canales.",
+    "connectTitle": "Conectemos",
+    "description": "Ya sea que quieras hablar sobre un proyecto, análisis de datos, desarrollo de software, tecnología de la construcción o logística internacional entre China y Perú, estaré encantado de conversar contigo.",
+    "qrTitle": "QR de WeChat",
+    "qrText": "Escanea este código QR con WeChat para agregarme directamente.",
+    "qrAlt": "Código QR de WeChat",
+    "items": {
+      "email": {
+        "label": "Correo"
+      },
+      "phone": {
+        "label": "Teléfono"
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "text": "Chatea conmigo por WhatsApp"
+      },
+      "instagram": {
+        "label": "Instagram"
+      },
+      "wechat": {
+        "label": "WeChat - giancarlovilch",
+        "text": "Escanea el código QR para conectar por WeChat"
+      }
+    }
+  },
+   "navbar": {
+    "projects": "Proyectos",
+    "experiences": "Experiencias",
+    "education": "Educación",
+    "contact": "Contacto"
+  },
+  "education": {
+    "tag": "FORMACIÓN ACADÉMICA Y PROFESIONAL",
+    "title": "Educación y Calificaciones",
+    "subtitle": "Una visión estructurada de mi formación académica, trayectorias profesionales y capacitación complementaria en ingeniería, tecnología, idiomas y negocios internacionales.",
+    "selectedPillar": "PILAR SELECCIONADO",
+    "corePath": "Formación Académica Principal",
+    "complementaryTraining": "Capacitación Complementaria",
+    "coreItems": "elementos principales",
+    "complementaryItems": "elementos complementarios",
+    "view": "Ver",
+    "pendingUpload": "Pendiente de subir",
+    "inProgress": "En progreso",
+    "noteTitle": "Nota:",
+    "noteText": "La documentación verificable se muestra para las credenciales cargadas. Los elementos marcados con cinco estrellas representan las calificaciones más completas o sólidas, mientras que otros pueden reflejar desarrollo activo, especialización o progresión académica futura.",
+    "certificatePreview": "VISTA DEL CERTIFICADO",
+    "noCertificate": "Aún no se agregó el archivo del certificado",
+    "uploadInstruction": "Sube un archivo PDF en assets/education y vincúlalo a esta calificación para habilitar la verificación.",
+    "photoAlt": "Campus universitario",
+    "specialization": "Stack Principal y Ruta",
+    "passwordRequired": "ACCESO PROTEGIDO",
+    "passwordTitle": "Ingresa la contraseña para ver",
+    "passwordSubtitle": "Este certificado está protegido. Ingresa la clave de acceso para continuar.",
+    "passwordPlaceholder": "Ingresa la clave de acceso...",
+    "passwordError": "Contraseña incorrecta. Por favor intenta de nuevo.",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+
+
+    "pillars": {
+      "civil": {
+        "title": "Ingeniería Civil",
+        "summary": "Formación académica y profesional en ingeniería civil, tecnología de la construcción, análisis estructural y software de diseño técnico."
+      },
+      "software": {
+        "title": "Ingeniería de Software",
+        "summary": "Formación aplicada en desarrollo full-stack, tecnologías web, bases de datos, redes y sistemas técnicos."
+      },
+      "languages": {
+        "title": "Estudios de Lenguas Extranjeras",
+        "summary": "Aprendizaje estructurado de idiomas respaldado por exámenes formales, rutas de preparación y práctica multilingüe."
+      },
+      "business": {
+        "title": "Negocios Internacionales",
+        "summary": "Preparación en negocios transfronterizos enfocada en abastecimiento, logística, documentación, negociación con proveedores y operaciones comerciales globales."
+      }
+    },
+
+    "items": {
+      "civil": {
+        "bachelor": {
+          "title": "Grado de Bachiller en Ingeniería Civil",
+          "issuer": "Programa Académico Universitario"
+        },
+        "professional": {
+          "title": "Título Profesional en Ingeniería Civil",
+          "issuer": "Ruta de Calificación Profesional"
+        },
+        "master": {
+          "title": "Grado de Máster en Ingeniería Civil",
+          "issuer": "Programa Académico Universitario"
+        },
+        "autocad": {
+          "title": "Dibujo Técnico en AutoCAD",
+          "issuer": "Capacitación en Software de Ingeniería"
+        },
+        "sap2000": {
+          "title": "Análisis Estructural con SAP2000",
+          "issuer": "Capacitación en Ingeniería Estructural"
+        },
+        "etabs": {
+          "title": "Modelado Estructural con ETABS",
+          "issuer": "Capacitación en Ingeniería Estructural"
+        },
+        "sketchup": {
+          "title": "Modelado Arquitectónico en SketchUp",
+          "issuer": "Capacitación en Visualización de Diseño"
+        },
+        "msproject": {
+          "title": "Microsoft Project",
+          "issuer": "Capacitación en Gestión de Proyectos de Construcción"
+        },
+        "bim": {
+          "title": "Certificaciones profesionales en modelado de información para la construcción (BIM)",
+          "issuer": "buildingSMART Foundation"
+        }
+      },
+
+      "software": {
+        "bachelor": {
+          "title": "Grado de Bachiller en Ingeniería de Software",
+          "issuer": "Programa Académico Universitario"
+        },
+        "professional": {
+          "title": "Título Profesional en Ingeniería de Software",
+          "issuer": "Ruta de Calificación Profesional"
+        },
+        "python": {
+          "title": "Desarrollo Backend con Python",
+          "issuer": "Capacitación en Desarrollo Backend"
+        },
+        "react": {
+          "title": "Ingeniería Frontend con React",
+          "issuer": "Capacitación en Desarrollo Frontend"
+        },
+        "fullstack": {
+          "title": "Desarrollo Full Stack",
+          "issuer": "University of Helsinki"
+        },
+        "mysql": {
+          "title": "Gestión de Bases de Datos MySQL",
+          "issuer": "Capacitación en Sistemas de Bases de Datos"
+        },
+        "cisco": {
+          "title": "Fundamentos de Redes Cisco",
+          "issuer": "Capacitación en Redes e Infraestructura"
+        },
+        "hardware": {
+          "title": "Hardware, Electrónica y Sistemas Embebidos",
+          "issuer": "Capacitación en Electrónica y Automatización"
+        }
+      },
+
+      "languages": {
+        "degree": {
+          "title": "Grado en Lenguas Extranjeras",
+          "issuer": "South China University of Technology"
+        },
+        "hsk4": {
+          "title": "Dominio de Chino - HSK 4",
+          "issuer": "Examen Oficial de Lengua China"
+        },
+        "bnu": {
+          "title": "Beca - BNU - Beijing",
+          "issuer": "Beijing Normal University"
+        },
+        "ielts": {
+          "title": "Dominio de Inglés - IELTS - B2",
+          "issuer": "Sistema Internacional de Evaluación del Idioma Inglés"
+        },
+        "portuguese": {
+          "title": "Dominio de Portugués - CELPEBRAS - A2",
+          "issuer": "Certificado de Proficiencia de Língua Portuguesa para Estrangeiros"
+        }
+      },
+
+      "business": {
+        "exportImport": {
+          "title": "Certificado de Exportación/Importación (EIC)",
+          "issuer": "ICC Academy"
+        }
+      }
+    }
+  },
+  "footer": {
+    "about": "Programador enfocado en análisis de datos con IA, React + Django + bases de datos. Ingeniero Civil especializado en tecnología de la construcción. Experto en logística internacional entre China y Perú. Hablo inglés, español, chino y portugués.",
+    "linksTitle": "Enlaces",
+    "contactTitle": "Contacto",
+    "emailLabel": "Correo",
+    "wechatLabel": "WeChat",
+    "phoneLabel": "Teléfono",
+    "rights": "Todos los derechos reservados.",
+    "links": {
+      "projects": "Proyectos",
+      "experience": "Experiencia",
+      "education": "Educación",
+      "contact": "Contacto"
+    }
+  },
+  "experiences": {
+    "tag": "EXPERIENCIA PROFESIONAL",
+    "title": "Historias de Experiencia",
+    "subtitle": "Una visión visual de experiencias prácticas en ingeniería, tecnología, negocios internacionales y resolución de problemas en campo.",
+    "photos": "fotos",
+    "viewStory": "Ver historia",
+    "storyTag": "HISTORIA DE EXPERIENCIA",
+    "overview": "Descripción general",
+    "professionalNote": "Reseña profesional",
+    "highlights": "Aspectos destacados",
+
+    "items": {
+      "concreteshow": {
+        "category": "Experiencia Internacional",
+        "title": "Participación en Concrete Show South America",
+        "location": "São Paulo, Brasil",
+        "period": "2025",
+        "shortSummary": "Asistencia técnica y comercial a la feria de la industria del concreto acompañando a la gerencia, facilitando negociaciones.",
+        "description": "Acompañé a mi jefe y a la gerencia al Concrete Show 2025 en São Paulo, aportando mi dominio avanzado del idioma portugués y mi fuerte afinidad técnica con el sector de la construcción. Durante el evento, brindé soporte estratégico en la exploración de innovaciones en tecnología del concreto y maquinaria pesada, actuando como facilitador en la comunicación y el networking con proveedores y fabricantes internacionales para futuras importaciones a Perú.",
+        "note": "Esta experiencia no solo fortaleció mis conocimientos en tendencias globales de infraestructura, sino que también consolidó mis habilidades de negociación bilingüe y mi capacidad para brindar soporte técnico a la gerencia en entornos corporativos internacionales.",
+        "highlights": [
+          "Soporte lingüístico y técnico directo a la gerencia en negociaciones con fabricantes brasileños e internacionales.",
+          "Evaluación conjunta de nuevas maquinarias, aditivos y sistemas de encofrado aplicables al mercado peruano.",
+          "Facilitación de networking estratégico para el establecimiento de alianzas comerciales de importación."
+        ]
+      },
+
+      "china2025": {
+        "category": "Experiencia Internacional",
+        "title": "Misión Comercial en China",
+        "location": "Lima - Alemania - Abu Dabi - China - Hong Kong",
+        "period": "2026",
+        "shortSummary": "Gira de negocios intercontinental actuando como traductor oficial, guía y enlace comercial para auditorías y cierre de acuerdos en Asia.",
+        "description": "Dirigí y facilité una misión comercial de alto nivel durante un mes. Tras una ruta de conexión internacional por Alemania y Emiratos Árabes, aterricé en China, donde mi rol fue crucial como traductor (mandarín-español), guía cultural y asesor de negocios. El itinerario incluyó visitas exhaustivas a fábricas en la provincia de Shandong para auditorías técnicas, seguido de negociaciones en el polo industrial de Guangzhou, y culminó en el centro financiero de Hong Kong con el cierre formal de acuerdos comerciales. Mi conocimiento profundo del mercado y la cultura china garantizó el éxito de la expedición.",
+        "note": "Esta experiencia consolida mi perfil como un profesional 'puente' entre Latinoamérica y Asia, capaz de derribar barreras idiomáticas y culturales para asegurar transacciones comerciales complejas.",
+        "highlights": [
+          "Traducción técnica y comercial en tiempo real (Mandarín/Español) durante auditorías en plantas de manufactura en Shandong.",
+          "Gestión logística y guía intercultural durante un mes de expedición por múltiples ciudades clave de negocios (Shandong, Guangzhou, Hong Kong).",
+          "Soporte estratégico en la negociación directa y cierre de contratos internacionales en Hong Kong."
+        ]
+      },
+
+      "cantonFair": {
+        "category": "Actividad de Negocios Internacionales",
+        "title": "Participación en la Feria de Cantón",
+        "location": "Guangzhou, China",
+        "period": "Experiencia de Exploración Comercial",
+        "shortSummary": "Participación en una de las ferias comerciales más grandes del mundo, con exposición a proveedores, productos, oportunidades de abastecimiento y cultura de negocios internacional.",
+        "description": "La participación en la Feria de Cantón brindó exposición directa a ecosistemas internacionales de proveedores, categorías de productos, estrategias de abastecimiento y dinámicas comerciales a gran escala. Fue una experiencia valiosa de aprendizaje en comercio global y observación de mercado.",
+        "note": "Esta experiencia refleja iniciativa, exposición internacional y contacto directo con entornos de comercio global, lo cual es altamente relevante para roles de sourcing y negocios transfronterizos.",
+        "highlights": [
+          "Exploración de proveedores, categorías de productos y oportunidades de abastecimiento.",
+          "Exposición directa a dinámicas de comercio internacional y negociación.",
+          "Comprensión práctica de grandes exhibiciones comerciales globales."
+        ]
+      },
+
+      "civilSupport": {
+        "category": "Experiencia en Ingeniería",
+        "title": "Apoyo de Campo en Ingeniería Civil",
+        "location": "Perú",
+        "period": "Práctica en Ingeniería",
+        "shortSummary": "Participación en campo en tareas relacionadas con ingeniería, soporte técnico e involucramiento práctico en entornos civiles y de construcción.",
+        "description": "Esta experiencia refleja participación práctica en entornos de ingeniería donde el apoyo de campo, la comprensión técnica y la coordinación real fueron esenciales. Ayudó a conectar la formación académica con las realidades operativas en contextos de construcción e ingeniería.",
+        "note": "Demuestra que mi perfil de ingeniería no es solo académico, sino también respaldado por exposición práctica, entendimiento de campo y ejecución técnica.",
+        "highlights": [
+          "Apoyo en actividades prácticas de ingeniería y construcción.",
+          "Exposición a coordinación técnica y condiciones reales de campo.",
+          "Conexión entre conocimiento académico de ingeniería e implementación real."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "tag": "PORTAFOLIO DE PROYECTOS",
+    "title": "Proyectos y Ejecuciones",
+    "subtitle": "Una visión estructurada de proyectos en tecnología, construcción, negocios internacionales y experiencias globales.",
+
+    "filters": {
+      "category": "Categoría",
+      "year": "Año",
+      "allCategories": "Todas las categorías",
+      "allYears": "Todos los años"
+    },
+
+    "itemsLabel": "proyectos",
+    "membersLabel": "integrantes",
+    "viewDetails": "Ver detalles",
+    "openDocument": "Abrir documentación",
+    "noDocument": "Aún no hay documentación disponible.",
+
+    "labels": {
+      "date": "Fecha",
+      "year": "Año",
+      "status": "Estado",
+      "team": "Equipo"
+    },
+
+    "status": {
+      "successful": "Exitoso",
+      "completed": "Completado",
+      "incomplete": "En progreso"
+    },
+
+    "modal": {
+      "tag": "DETALLE DEL PROYECTO",
+      "overview": "Descripción general",
+      "documentation": "Documentación",
+      "teamMembers": "Equipo del proyecto",
+      "highlights": "Aspectos destacados"
+    },
+
+    "categories": {
+      "technology": "Tecnología",
+      "construction": "Construcción",
+      "machinery": "Maquinaria",
+      "transportation": "Transporte",
+      "internationalBusiness": "Negocios internacionales",
+      "trips": "Viajes internacionales"
+    },
+
+    "members": {
+      "gianCarlo": "Gian Carlo",
+      "contractorTeam": "Equipo de construcción",
+      "siteSupport": "Soporte técnico",
+      "chineseSuppliers": "Proveedores chinos",
+      "logisticsPartners": "Socios logísticos",
+      "businessContacts": "Contactos comerciales",
+      "suppliers": "Proveedores internacionales"
+    },
+
+    "items": {
+      "carMixerImport": {
+        "title": "Importación y Puesta en Marcha de Autohormigonera",
+        "date": "2025",
+        "shortSummary": "Gestión integral de importación desde China, ensamblaje y puesta en obra de una autohormigonera autocargable de 3.5m³ en Ayacucho.",
+        "description": "Lideré el proyecto completo de adquisición de maquinaria pesada (Car Mixer). Realicé el sourcing y negociación directa con la fábrica fabricante en Shandong 山东 (China), gestionando la logística internacional hasta el puerto del Callao. Posteriormente, me encargué personalmente de la descarga, el ensamblaje mecánico de la maquinaria y su traslado final hasta Ayacucho para su inmediata operación en obra.",
+        "highlights": [
+          "Negociación internacional directa con fábrica en China (Shandong 山东), optimizando costos al evitar intermediarios (traders).",
+          "Gestión logística integral: importación marítima (Shandong 山东 - Callao) y coordinación de transporte terrestre nacional.",
+          "Ensamblaje mecánico autónomo y exitosa puesta en marcha del equipo (3.5m³ de capacidad) directamente en obra."
+        ]
+      },
+      "formwork": {
+        "title": "Importación y Despliegue de Sistema de Encofrados",
+        "date": "2026",
+        "shortSummary": "Gestión integral de adquisición, logística internacional y despliegue en obra de sistemas de encofrado desde Shandong, China.",
+        "description": "Lideré la adquisición internacional de sistemas de encofrado para la ejecución de elementos estructurales. Gestioné el sourcing y la negociación directa con fabricantes en la provincia de Shandong (China), coordinando toda la cadena logística marítima hasta el puerto del Callao. Finalmente, supervisé el proceso de nacionalización y el transporte directo al sitio de construcción para su ensamblaje y uso inmediato, garantizando la continuidad del cronograma de obra.",
+        "highlights": [
+          "Negociación directa con fábricas de encofrados en Shandong, asegurando estándares de calidad y optimización de costos de importación.",
+          "Coordinación integral de la cadena de suministro internacional: flete marítimo (Shandong - Callao) y gestión aduanera.",
+          "Recepción logística y despliegue directo del material en el proyecto, agilizando los frentes de trabajo estructural."
+        ]
+      },
+      "tyresImport": {
+        "title": "Importación de Neumáticos y Auditoría de Proveedores",
+        "date": "2019",
+        "shortSummary": "Expedición comercial a la provincia de Shandong, China, para la evaluación técnica de fábricas y gestión de importación de neumáticos hacia Perú.",
+        "description": "Realicé un viaje de negocios estratégico a la provincia de Shandong (China) con el objetivo de establecer alianzas comerciales directas para la importación de neumáticos. Durante la expedición, visité y audité múltiples plantas de fabricación, evaluando exhaustivamente su capacidad de producción, controles de calidad y certificaciones internacionales. Esta gestión in situ permitió optimizar la cadena de suministro, eliminar intermediarios y asegurar proveedores altamente confiables para el mercado peruano.",
+        "highlights": [
+          "Inspección técnica presencial de múltiples fábricas en Shandong para verificar los procesos de manufactura y estándares de calidad.",
+          "Negociación comercial directa con fabricantes internacionales, mejorando significativamente la estructura de costos y márgenes de importación.",
+          "Análisis comparativo de proveedores para garantizar el cumplimiento de las normativas técnicas exigidas en el puerto del Callao."
+        ]
+      },
+
+      "vehicleImport": {
+        "title": "Importación y Nacionalización de Flota Vehicular",
+        "date": "2020", 
+        "shortSummary": "Expedición comercial a Corea del Sur para la negociación, importación y nacionalización de vehículos seminuevos Hyundai.",
+        "description": "Dirigí un proyecto de importación automotriz viajando directamente a Corea del Sur para auditar y negociar la adquisición de vehículos de segunda mano de la marca Hyundai. Gestioné el ciclo completo de comercio exterior, desde la inspección física y compra en origen, hasta la coordinación del flete marítimo internacional. Además, lideré rigurosamente todos los trámites aduaneros, homologación documental y el proceso de nacionalización para el ingreso legal y exitoso de las unidades al mercado peruano.",
+        "highlights": [
+          "Negociación comercial presencial en Corea del Sur, asegurando un control de calidad estricto sobre el estado mecánico y legal de cada unidad Hyundai.",
+          "Gestión integral de logística internacional (flete marítimo) y optimización de la cadena de suministro automotriz hacia el puerto del Callao.",
+          "Manejo experto de la documentación aduanera y requisitos técnicos del MTC para la rápida nacionalización e inscripción registral de los vehículos en Perú."
+        ]
+      },
+
+      "portfolioDevelopment": {
+        "title": "Desarrollo de plataforma de portafolio profesional",
+        "date": "2026",
+        "shortSummary": "Desarrollo de un portafolio profesional usando React, TypeScript y tecnologías modernas.",
+        "description": "Diseño y desarrollo de una plataforma moderna de portafolio que presenta proyectos, experiencia profesional y formación académica.",
+        "highlights": [
+          "Arquitectura React + TypeScript.",
+          "Diseño responsive moderno.",
+          "Internacionalización con múltiples idiomas."
+        ]
+      },
+
+      "cantonFairTrip": {
+        "title": "Exploración comercial en la Feria de Cantón",
+        "date": "2025",
+        "shortSummary": "Participación en la Feria de Cantón para explorar proveedores y oportunidades comerciales.",
+        "description": "Participación en la Feria de Cantón en Guangzhou, China, con el objetivo de explorar proveedores internacionales y oportunidades comerciales globales.",
+        "highlights": [
+          "Exploración de proveedores internacionales.",
+          "Observación de tendencias globales de mercado.",
+          "Expansión de redes comerciales internacionales."
+        ]
+      }
+    }
+  },
+  "home": {
+    "tag": "INGENIERO MULTIDISCIPLINARIO",
+    "title": "Ingeniería, Tecnología y Negocios Globales",
+    "subtitle": "Ingeniero civil e ingeniero de software con experiencia internacional en China, comunicación multilingüe y resolución de problemas técnicos en distintos sectores.",
+
+    "ctaProjects": "Ver proyectos",
+    "ctaContact": "Contactarme",
+
+    "carouselAlt": "Foto de experiencia profesional",
+
+    "metrics": {
+      "fields": "Áreas profesionales",
+      "languages": "Idiomas",
+      "growth": "Aprendizaje continuo"
+    },
+
+    "introTag": "ÁREAS PRINCIPALES",
+    "introTitle": "Enfoques Profesionales",
+
+    "cards": {
+      "engineering": {
+        "title": "Ingeniería Civil",
+        "text": "Formación técnica en ingeniería civil, procesos constructivos y coordinación de proyectos con experiencia práctica en campo."
+      },
+      "software": {
+        "title": "Ingeniería de Software",
+        "text": "Desarrollo de sistemas digitales y herramientas basadas en datos utilizando tecnologías modernas como React, Python y bases de datos."
+      },
+      "business": {
+        "title": "Negocios Internacionales",
+        "text": "Participación en búsqueda de proveedores, comunicación con fabricantes y operaciones comerciales entre China y América Latina."
+      },
+      "languages": {
+        "title": "Idiomas y Comunicación Global",
+        "text": "Comunicación multilingüe en inglés, español, chino y portugués en entornos internacionales."
+      }
+    },
+
+    "profileTag": "RESUMEN PROFESIONAL",
+    "profileTitle": "Un Camino Profesional Multidisciplinario",
+
+    "profileText": "Mi trayectoria profesional integra ingeniería, tecnología y negocios internacionales. Con formación académica en ingeniería civil y software, combinada con experiencias reales en proyectos de construcción, comercio internacional y entornos multiculturales, busco desarrollar soluciones prácticas que conecten la tecnología con el impacto real en los negocios.",
+
+    "points": {
+      "point1": "Formación en ingeniería que conecta conocimientos de infraestructura civil con soluciones tecnológicas.",
+      "point2": "Experiencia internacional a través de actividades en China, comunicación con proveedores y comercio global.",
+      "point3": "Desarrollo técnico en ingeniería de software con tecnologías web modernas y diseño de sistemas.",
+      "point4": "Mentalidad de aprendizaje continuo enfocada en innovación, tecnología y colaboración global."
+    }
+  }
+}
