@@ -4,7 +4,7 @@
     "title": "Contact Me",
     "subtitle": "I am open to collaborations, professional opportunities, and international business connections. Feel free to reach out through any of the channels below.",
     "connectTitle": "Let's Connect",
-    "description": "Whether you want to discuss a project, data analysis, software development, construction technology, or international logistics between China and Peru, I would be glad to hear from you.",
+    "description": "Whether you want to discuss a project, data analysis, software development, construction project management (CPM), or international logistics between China and Peru, I would be glad to hear from you.",
     "qrTitle": "WeChat QR",
     "qrText": "Scan this QR code with WeChat to add me directly.",
     "qrAlt": "WeChat QR Code",
@@ -53,6 +53,7 @@
     "uploadInstruction": "Upload a PDF file in assets/education and connect it to this qualification to enable verification.",
     "photoAlt": "University campus",
     "specialization": "Core Stack & Roadmap",
+    "tools": "Related Software & Tools",
     "passwordRequired": "ACCESS PROTECTED",
     "passwordTitle": "Enter password to view",
     "passwordSubtitle": "This certificate is password protected. Enter the access key to continue.",
@@ -64,11 +65,46 @@
     "pillars": {
       "civil": {
         "title": "Civil Engineering",
-        "summary": "Academic and professional development in civil engineering, construction technology, structural analysis, and technical design software."
+        "summary": "Specialization in Construction Management.",
+        "specialization": [
+          "Site Performance & Productivity",
+          "Predictive Analytics for Construction",
+          "Cost & Budget Optimization",
+          "Supply Chain Analytics",
+          "Construction Technology & Digitalization",
+          "Process Automation & Custom PM Software"
+        ],
+        "tools": [
+          "Microsoft Project",
+          "Primavera P6",
+          "Power BI",
+          "AutoCAD",
+          "Python",
+          "SQL"
+        ]
       },
       "software": {
         "title": "Software Engineering",
-        "summary": "Applied training in full-stack development, web technologies, databases, networking, and technical systems."
+        "summary": "Specialization in Data Analytics & Artificial Intelligence.",
+        "specialization": [
+          "Machine Learning",
+          "Predictive & Prescriptive Analytics",
+          "Big Data & Distributed Architectures",
+          "Generative Artificial Intelligence",
+          "Business Analytics (Processes, OKRs & Agility)",
+          "Data Strategy & Organizational Management"
+        ],
+        "tools": [
+          "Networking & Server Administration",
+          "Infrastructure & Virtualization",
+          "Cloud Computing",
+          "Docker",
+          "Python / Django",
+          "React / Next.js",
+          "SQL",
+          "NoSQL",
+          "Power BI"
+        ]
       },
       "languages": {
         "title": "Foreign Language Studies",
@@ -91,8 +127,12 @@
           "issuer": "Professional Qualification Path"
         },
         "master": {
-          "title": "Master’s Degree in Civil Engineering",
-          "issuer": "University Academic Program"
+          "title": "Master’s Degree in Construction Management",
+          "issuer": "University Graduate Program"
+        },
+        "leanConstruction": {
+          "title": "Lean Construction Specialization",
+          "issuer": "Construction Technology Institute (ITeC) – Barcelona, Spain"
         },
 
         "autocad": {
@@ -114,10 +154,6 @@
         "msproject": {
           "title": "Microsoft Project",
           "issuer": "Construction Project Management Training"
-        },
-        "bim": {
-          "title": "Building Information Modeling (BIM) Professional Certifications",
-          "issuer": "buildingSMART Foundation"
         }
       },
 
@@ -130,6 +166,10 @@
           "title": "Professional Title in Software Engineering",
           "issuer": "Professional Qualification Path"
         },
+        "master": {
+          "title": "Master’s Degree in Data Analytics and Artificial Intelligence",
+          "issuer": "University Graduate Program"
+        },
         "python": {
           "title": "Python Backend Development",
           "issuer": "Backend Development Training"
@@ -141,6 +181,10 @@
         "fullstack": {
           "title": "Full Stack Development",
           "issuer": "University of Helsinki"
+        },
+        "googleCloud": {
+          "title": "Google Cloud Engineering Certificate",
+          "issuer": "Google Cloud"
         },
         "mysql": {
           "title": "MySQL Database Management",
@@ -188,7 +232,7 @@
     }
   },
   "footer": {
-    "about": "Data-focused programmer working with AI, React + Django + databases. Civil Engineer specialized in construction technology. Expert in international logistics between China and Peru. Fluent in English, Spanish, Chinese, and Portuguese.",
+    "about": "Data-focused programmer working with AI, React + Django + databases. Civil Engineer specialized in Construction Project Management (CPM), pursuing a Master's Degree in Data Analytics and Artificial Intelligence. Expert in international logistics between China and Peru. Fluent in English, Spanish, Chinese, and Portuguese.",
     "linksTitle": "Links",
     "contactTitle": "Contact",
     "emailLabel": "Email",
@@ -409,7 +453,7 @@
   "home": {
     "tag": "MULTIDISCIPLINARY ENGINEER",
     "title": "Engineering, Technology & Global Business",
-    "subtitle": "Civil Engineer and Software Engineer with international experience in China, multilingual communication, and cross-disciplinary technical problem solving.",
+    "subtitle": "Civil Engineer specialized in Construction Project Management (CPM) and Software Engineer focused on Data Analytics and Artificial Intelligence, with international experience in China and multilingual communication.",
 
     "ctaProjects": "View Projects",
     "ctaContact": "Contact Me",
@@ -428,11 +472,11 @@
     "cards": {
       "engineering": {
         "title": "Civil Engineering",
-        "text": "Technical background in civil engineering, construction processes, and project coordination with practical field exposure."
+        "text": "Technical background in civil engineering with a specialization in Construction Project Management (CPM), construction processes, and project coordination with practical field exposure."
       },
       "software": {
         "title": "Software Engineering",
-        "text": "Development of digital systems and data-driven tools using modern technologies such as React, Python, and databases."
+        "text": "Development of digital systems and data-driven tools, with an ongoing specialization in Data Analytics and Artificial Intelligence, using modern technologies such as React, Python, and databases."
       },
       "business": {
         "title": "International Business",
@@ -447,12 +491,12 @@
     "profileTag": "PROFILE SUMMARY",
     "profileTitle": "A Multidisciplinary Professional Path",
 
-    "profileText": "My professional journey integrates engineering, technology, and international business. With academic training in civil and software engineering, combined with real-world exposure to construction projects, global trade, and cross-cultural environments, I focus on building practical solutions that connect technical expertise with real business impact.",
+    "profileText": "My professional journey integrates engineering, technology, and international business. With academic training in civil and software engineering, a specialization in Construction Project Management (CPM), and an ongoing Master's Degree in Data Analytics and Artificial Intelligence, combined with real-world exposure to construction projects, global trade, and cross-cultural environments, I focus on building practical solutions that connect technical expertise with real business impact.",
 
     "points": {
-      "point1": "Engineering background connecting civil infrastructure knowledge with digital technology solutions.",
+      "point1": "Civil engineering background with a specialization in Construction Project Management (CPM), connecting infrastructure knowledge with digital technology solutions.",
       "point2": "International exposure through experiences in China, supplier communication, and global trade environments.",
-      "point3": "Technical development in software engineering including modern web technologies and system design.",
+      "point3": "Technical development in software engineering with an ongoing specialization in Data Analytics and Artificial Intelligence, modern web technologies, and system design.",
       "point4": "Continuous learning mindset with focus on innovation, technology, and global collaboration."
     }
   }

@@ -563,6 +563,12 @@
   border: 1px solid #ddd;
 }
 
+.tech-tag-tool {
+  background: #e6f6fd;
+  color: #0e7490;
+  border: 1px solid #bae6fd;
+}
+
 /* Modal de contraseña */
 .password-modal {
   width: min(440px, 100%);

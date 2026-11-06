@@ -4,7 +4,7 @@
     "title": "Contáctame",
     "subtitle": "Estoy abierto a colaboraciones, oportunidades profesionales y conexiones de negocios internacionales. No dudes en escribirme a través de cualquiera de los siguientes canales.",
     "connectTitle": "Conectemos",
-    "description": "Ya sea que quieras hablar sobre un proyecto, análisis de datos, desarrollo de software, tecnología de la construcción o logística internacional entre China y Perú, estaré encantado de conversar contigo.",
+    "description": "Ya sea que quieras hablar sobre un proyecto, análisis de datos, desarrollo de software, gestión de proyectos de construcción (CPM) o logística internacional entre China y Perú, estaré encantado de conversar contigo.",
     "qrTitle": "QR de WeChat",
     "qrText": "Escanea este código QR con WeChat para agregarme directamente.",
     "qrAlt": "Código QR de WeChat",
@@ -53,6 +53,7 @@
     "uploadInstruction": "Sube un archivo PDF en assets/education y vincúlalo a esta calificación para habilitar la verificación.",
     "photoAlt": "Campus universitario",
     "specialization": "Stack Principal y Ruta",
+    "tools": "Software y Herramientas Afines",
     "passwordRequired": "ACCESO PROTEGIDO",
     "passwordTitle": "Ingresa la contraseña para ver",
     "passwordSubtitle": "Este certificado está protegido. Ingresa la clave de acceso para continuar.",
@@ -65,11 +66,46 @@
     "pillars": {
       "civil": {
         "title": "Ingeniería Civil",
-        "summary": "Formación académica y profesional en ingeniería civil, tecnología de la construcción, análisis estructural y software de diseño técnico."
+        "summary": "Especialización en Gestión de la Construcción.",
+        "specialization": [
+          "Productividad y Rendimiento de Obra",
+          "Analítica Predictiva aplicada a la Construcción",
+          "Optimización de Costos y Presupuestos",
+          "Analítica de Cadena de Suministro",
+          "Tecnología y Digitalización de la Construcción",
+          "Automatización de Procesos y Software Propio de Gestión"
+        ],
+        "tools": [
+          "Microsoft Project",
+          "Primavera P6",
+          "Power BI",
+          "AutoCAD",
+          "Python",
+          "SQL"
+        ]
       },
       "software": {
         "title": "Ingeniería de Software",
-        "summary": "Formación aplicada en desarrollo full-stack, tecnologías web, bases de datos, redes y sistemas técnicos."
+        "summary": "Especialización en Analítica de Datos e Inteligencia Artificial.",
+        "specialization": [
+          "Machine Learning",
+          "Analítica Predictiva y Prescriptiva",
+          "Big Data y Arquitecturas Distribuidas",
+          "Inteligencia Artificial Generativa",
+          "Business Analytics (Procesos, OKRs y Agilidad)",
+          "Estrategia de Datos y Gestión Organizacional"
+        ],
+        "tools": [
+          "Networking & Server Administration",
+          "Infrastructure & Virtualization",
+          "Cloud Computing",
+          "Docker",
+          "Python / Django",
+          "React / Next.js",
+          "SQL",
+          "NoSQL",
+          "Power BI"
+        ]
       },
       "languages": {
         "title": "Estudios de Lenguas Extranjeras",
@@ -92,8 +128,12 @@
           "issuer": "Ruta de Calificación Profesional"
         },
         "master": {
-          "title": "Grado de Máster en Ingeniería Civil",
-          "issuer": "Programa Académico Universitario"
+          "title": "Maestría en Gerencia de la Construcción",
+          "issuer": "Programa de Posgrado Universitario"
+        },
+        "leanConstruction": {
+          "title": "Especialización en Lean Construction",
+          "issuer": "Instituto de Tecnología de la Construcción (ITeC) – Barcelona, España"
         },
         "autocad": {
           "title": "Dibujo Técnico en AutoCAD",
@@ -114,10 +154,6 @@
         "msproject": {
           "title": "Microsoft Project",
           "issuer": "Capacitación en Gestión de Proyectos de Construcción"
-        },
-        "bim": {
-          "title": "Certificaciones profesionales en modelado de información para la construcción (BIM)",
-          "issuer": "buildingSMART Foundation"
         }
       },
 
@@ -130,6 +166,10 @@
           "title": "Título Profesional en Ingeniería de Software",
           "issuer": "Ruta de Calificación Profesional"
         },
+        "master": {
+          "title": "Maestría en Analítica de Datos e Inteligencia Artificial",
+          "issuer": "Programa de Posgrado Universitario"
+        },
         "python": {
           "title": "Desarrollo Backend con Python",
           "issuer": "Capacitación en Desarrollo Backend"
@@ -141,6 +181,10 @@
         "fullstack": {
           "title": "Desarrollo Full Stack",
           "issuer": "University of Helsinki"
+        },
+        "googleCloud": {
+          "title": "Google Cloud Engineering Certificate",
+          "issuer": "Google Cloud"
         },
         "mysql": {
           "title": "Gestión de Bases de Datos MySQL",
@@ -188,7 +232,7 @@
     }
   },
   "footer": {
-    "about": "Programador enfocado en análisis de datos con IA, React + Django + bases de datos. Ingeniero Civil especializado en tecnología de la construcción. Experto en logística internacional entre China y Perú. Hablo inglés, español, chino y portugués.",
+    "about": "Programador enfocado en análisis de datos con IA, React + Django + bases de datos. Ingeniero Civil especializado en Construction Project Management (CPM), cursando una Maestría en Analítica de Datos e Inteligencia Artificial. Experto en logística internacional entre China y Perú. Hablo inglés, español, chino y portugués.",
     "linksTitle": "Enlaces",
     "contactTitle": "Contacto",
     "emailLabel": "Correo",
@@ -408,7 +452,7 @@
   "home": {
     "tag": "INGENIERO MULTIDISCIPLINARIO",
     "title": "Ingeniería, Tecnología y Negocios Globales",
-    "subtitle": "Ingeniero civil e ingeniero de software con experiencia internacional en China, comunicación multilingüe y resolución de problemas técnicos en distintos sectores.",
+    "subtitle": "Ingeniero civil especializado en Construction Project Management (CPM) e ingeniero de software enfocado en Analítica de Datos e Inteligencia Artificial, con experiencia internacional en China y comunicación multilingüe.",
 
     "ctaProjects": "Ver proyectos",
     "ctaContact": "Contactarme",
@@ -427,11 +471,11 @@
     "cards": {
       "engineering": {
         "title": "Ingeniería Civil",
-        "text": "Formación técnica en ingeniería civil, procesos constructivos y coordinación de proyectos con experiencia práctica en campo."
+        "text": "Formación técnica en ingeniería civil con especialización en Construction Project Management (CPM), procesos constructivos y coordinación de proyectos con experiencia práctica en campo."
       },
       "software": {
         "title": "Ingeniería de Software",
-        "text": "Desarrollo de sistemas digitales y herramientas basadas en datos utilizando tecnologías modernas como React, Python y bases de datos."
+        "text": "Desarrollo de sistemas digitales y herramientas basadas en datos, con especialización en curso en Analítica de Datos e Inteligencia Artificial, utilizando tecnologías modernas como React, Python y bases de datos."
       },
       "business": {
         "title": "Negocios Internacionales",
@@ -446,12 +490,12 @@
     "profileTag": "RESUMEN PROFESIONAL",
     "profileTitle": "Un Camino Profesional Multidisciplinario",
 
-    "profileText": "Mi trayectoria profesional integra ingeniería, tecnología y negocios internacionales. Con formación académica en ingeniería civil y software, combinada con experiencias reales en proyectos de construcción, comercio internacional y entornos multiculturales, busco desarrollar soluciones prácticas que conecten la tecnología con el impacto real en los negocios.",
+    "profileText": "Mi trayectoria profesional integra ingeniería, tecnología y negocios internacionales. Con formación académica en ingeniería civil y de software, especialización en Construction Project Management (CPM) y una Maestría en curso en Analítica de Datos e Inteligencia Artificial, combinada con experiencias reales en proyectos de construcción, comercio internacional y entornos multiculturales, busco desarrollar soluciones prácticas que conecten la tecnología con el impacto real en los negocios.",
 
     "points": {
-      "point1": "Formación en ingeniería que conecta conocimientos de infraestructura civil con soluciones tecnológicas.",
+      "point1": "Formación en ingeniería civil con especialización en Construction Project Management (CPM), conectando infraestructura con soluciones tecnológicas.",
       "point2": "Experiencia internacional a través de actividades en China, comunicación con proveedores y comercio global.",
-      "point3": "Desarrollo técnico en ingeniería de software con tecnologías web modernas y diseño de sistemas.",
+      "point3": "Desarrollo técnico en ingeniería de software con especialización en curso en Analítica de Datos e Inteligencia Artificial, tecnologías web modernas y diseño de sistemas.",
       "point4": "Mentalidad de aprendizaje continuo enfocada en innovación, tecnología y colaboración global."
     }
   }

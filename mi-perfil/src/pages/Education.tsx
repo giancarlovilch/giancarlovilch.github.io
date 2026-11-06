@@ -182,13 +182,31 @@ const Education: React.FC = () => {
             <h2>{t(currentPillar.titleKey)}</h2>
             <p>{t(currentPillar.summaryKey)}</p>
 
-            {/* Nuevo bloque de especialidades */}
-            {currentPillar.specialization && (
+            {/* Bloque de especialidades (traducido si viene de specializationKey) */}
+            {(() => {
+              const specializationTags = currentPillar.specializationKey
+                ? (t(currentPillar.specializationKey, { returnObjects: true }) as string[])
+                : currentPillar.specialization;
+
+              return specializationTags && (
+                <div className="specialization-container">
+                  <p className="specialization-label">{t("education.specialization")}:</p>
+                  <div className="specialization-tags">
+                    {specializationTags.map((tech) => (
+                      <span key={tech} className="tech-tag">{tech}</span>
+                    ))}
+                  </div>
+                </div>
+              );
+            })()}
+
+            {/* Bloque de software y herramientas afines */}
+            {currentPillar.toolsKey && (
               <div className="specialization-container">
-                <p className="specialization-label">{t("education.specialization")}:</p>
+                <p className="specialization-label">{t("education.tools")}:</p>
                 <div className="specialization-tags">
-                  {currentPillar.specialization.map((tech) => (
-                    <span key={tech} className="tech-tag">{tech}</span>
+                  {(t(currentPillar.toolsKey, { returnObjects: true }) as string[]).map((tool) => (
+                    <span key={tool} className="tech-tag tech-tag-tool">{tool}</span>
                   ))}
                 </div>
               </div>

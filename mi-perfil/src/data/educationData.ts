@@ -19,7 +19,12 @@ export type EducationPillar = {
   level: number;
   corePath: LearningItem[];
   complementaryTraining: LearningItem[];
+  /** @deprecated inline, not localized — use specializationKey instead */
   specialization?: string[];
+  /** i18n key resolving to a string[] of specialization tags (localized) */
+  specializationKey?: string;
+  /** i18n key resolving to a string[] of software/tools tags (localized) */
+  toolsKey?: string;
 };
 
 export const educationData: EducationPillar[] = [
@@ -28,6 +33,8 @@ export const educationData: EducationPillar[] = [
     titleKey: "education.pillars.civil.title",
     summaryKey: "education.pillars.civil.summary",
     level: 5,
+    specializationKey: "education.pillars.civil.specialization",
+    toolsKey: "education.pillars.civil.tools",
 
     corePath: [
       {
@@ -42,17 +49,22 @@ export const educationData: EducationPillar[] = [
         titleKey: "education.items.civil.professional.title",
         issuerKey: "education.items.civil.professional.issuer",
         level: 2,
+      },
+      {
+        id: "construction-master",
+        titleKey: "education.items.civil.master.title",
+        issuerKey: "education.items.civil.master.issuer",
+        level: 1,
       }
-      // ,
-      // {
-      //   id: "civil-master",
-      //   titleKey: "education.items.civil.master.title",
-      //   issuerKey: "education.items.civil.master.issuer",
-      //   level: 1,
-      // }
     ],
 
     complementaryTraining: [
+      {
+        id: "lean-construction",
+        titleKey: "education.items.civil.leanConstruction.title",
+        issuerKey: "education.items.civil.leanConstruction.issuer",
+        level: 1,
+      },
       // {
       //   id: "autocad",
       //   titleKey: "education.items.civil.autocad.title",
@@ -83,12 +95,6 @@ export const educationData: EducationPillar[] = [
       //   issuerKey: "education.items.civil.msproject.issuer",
       //   level: 2,
       // },
-      {
-        id: "bim",
-        titleKey: "education.items.civil.bim.title",
-        issuerKey: "education.items.civil.bim.issuer",
-        level: 2,
-      }
     ]
   },
 
@@ -97,7 +103,8 @@ export const educationData: EducationPillar[] = [
     titleKey: "education.pillars.software.title",
     summaryKey: "education.pillars.software.summary",
     level: 5,
-    specialization: ["Django (Python)", "Next.js (React)", "PHP (OOP/MVC)", "SQL", "NoSQL", "Git", "IT Infrastructure & Networking"],
+    specializationKey: "education.pillars.software.specialization",
+    toolsKey: "education.pillars.software.tools",
 
     corePath: [
       {
@@ -105,13 +112,19 @@ export const educationData: EducationPillar[] = [
         titleKey: "education.items.software.bachelor.title",
         issuerKey: "education.items.software.bachelor.issuer",
         level: 5,
-        file: softwareBachelorCert,        
+        file: softwareBachelorCert,
       },
       {
         id: "software-title",
         titleKey: "education.items.software.professional.title",
         issuerKey: "education.items.software.professional.issuer",
         level: 2,
+      },
+      {
+        id: "data-ai-master",
+        titleKey: "education.items.software.master.title",
+        issuerKey: "education.items.software.master.issuer",
+        level: 1,
       }
     ],
 
@@ -133,6 +146,12 @@ export const educationData: EducationPillar[] = [
         titleKey: "education.items.software.fullstack.title",
         issuerKey: "education.items.software.fullstack.issuer",
         level: 2,
+      },
+      {
+        id: "google-cloud",
+        titleKey: "education.items.software.googleCloud.title",
+        issuerKey: "education.items.software.googleCloud.issuer",
+        level: 5,
       },
       // {
       //   id: "mysql",
